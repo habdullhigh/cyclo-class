@@ -4,7 +4,6 @@ interface IVehincle {
     model: string;
     year: number;
     color: string;
-    brand: any;
     displayInfo(): void;
     move():void;
 }
