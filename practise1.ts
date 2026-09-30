@@ -66,9 +66,15 @@ class Motorcycle extends Vehincle {
 
 
 const myCar = new Car("Toyota", "Camry", 2022, 4);
+const myCar1 = new Car("Toyota", "Venza", 2024, 4);
 myCar.displayInfo();
+console.log(" ")
+myCar1.displayInfo();
+console.log(" ")
+
 myCar.model = "Corolla";
 const myMotorcycle = new Motorcycle("Harley-Davidson", "Street 750", 2021, true);
 myMotorcycle.displayInfo();
+console.log(" ")
 
 
